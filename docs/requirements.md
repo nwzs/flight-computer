@@ -23,7 +23,7 @@ Phase 0, 2026-10-28. Flight numbers come from `sim/` (estimated geometry, so re-
 | R1 | Payload (board + battery + sled) ≤ 75 g for Tier 1, ≤ 45 g target for Tier 2, 100 g hard ceiling | Sim: rod exit drops to 12 m/s at 100 g |
 | R2 | Fits the payload bay: ≤ 30 mm wide, ≤ 90 mm long (confirm against the measured bay) | BT-60 ID ≈ 40.5 mm. A 30 mm board leaves ~13 mm of height each side of centre |
 | R3 | Accelerometer range ≥ ±16 g. ±32 g chosen | Sim peak 11.7 g (Tier 1) to 13.5 g (Tier 2), plus ejection/landing shocks |
-| R4 | Altitude resolution ≤ 0.5 m over 0–300 m AGL | BMP390 ±3 Pa ≈ ±0.25 m. Expected pressure drop ~2 kPa |
+| R4 | Altitude resolution ≤ 0.5 m over 0–300 m AGL | BMP388 ±8 Pa ≈ ±0.5 m. Expected pressure drop ~2 kPa |
 | R5 | Launch detect: \|a\| > 3 g for ≥ 100 ms, confirmed by baro rise | Sim: specific force > 3 g from 0.10 to 1.57 s |
 | R6 | Full-rate logging for ≥ 60 s after launch, plus a 2 s pre-launch buffer | Flight ≈ 35–40 s. At 500 Hz × 32 B that is ~1 MB of 16 MB |
 | R7 | Battery runtime ≥ 2× the expected pad wait (target ≥ 2 h powered and logging at the pad rate) | Club pad waits can be long |
