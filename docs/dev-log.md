@@ -9,4 +9,16 @@
   - The ±32 g IMU and the 3 g launch-detect threshold both check out.
 - Wrote `docs/requirements.md`.
 
-**Next:** buy the kit, measure the payload bay, order the Tier 1 electronics, start the DME online module.
+## 2026-10-29: Tier 1 parts ordered
+
+**Did:**
+- Ordered Orbitron kit, 2× D12-5 two-packs, wadding and cement (in-store pickup)
+- Ordered electronics from DigiKey (LSM6DSO32, BMP388, W25Q128 flash, LiPo charger), Universal-Solder (2× Black Pill, ST-Link) and Amazon (LiPo, JST-PH pigtails)
+
+**Problems / decisions:**
+- BMP390 breakout out of stock at Adafruit, DigiKey and Mouser → using BMP388 for Tier 1. Same Bosch register map; driver will accept both chip IDs. Tier 2 still uses BMP390.
+- Adafruit LiPo unavailable in Canada → generic protected 500 mAh 602040 cell. Its plug is 1.25 mm, so I'll splice on a JST-PH 2.0 pigtail.
+
+**Numbers:** ~$288 CAD spent so far (budget estimate was ~$287 with tax).
+
+**Next:** DME online module and Creatron run by Nov 8; pick up the kit and measure the payload bay.
